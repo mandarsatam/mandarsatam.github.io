@@ -1,0 +1,132 @@
+.techCont{
+    width: 80%;
+    margin: 4em auto;
+}
+
+.techCont h2{
+    font-family: 'Inter',"sans-serif";
+    font-size: 2em;
+    letter-spacing: -.029375rem;
+    font-weight: 700;
+}
+
+.techLogo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.techLogo div{
+    flex-basis: 25%;
+    margin-bottom: 1em;
+}
+
+.techLogo i{
+    font-size: 5em;
+    color: rgb(80, 80, 80);
+}
+
+.techLogo img{
+    filter: brightness(120%);
+}
+
+.techCont p{
+    font-family: 'Inter',"sans-serif";
+    color: #666;
+    font-size: 1em;
+}
+
+.fa-github:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.fa-js:hover{
+    cursor: pointer;
+    color: #F0DA37;
+}
+.fa-react:hover{
+    cursor: pointer;
+    color: #1ECFF4;
+}
+.fa-node-js:hover{
+    cursor: pointer;
+    color: #7CC51D;
+}
+.fa-html5:hover{
+    cursor: pointer;
+    color: #E04D38;
+}
+.fa-bootstrap:hover{
+    cursor: pointer;
+    color: #533C78;
+}
+.fa-css3-alt:hover{
+    cursor: pointer;
+    color: #0374B8;
+}
+.fa-python:hover{
+    cursor: pointer;
+    color: #3571A3;
+}
+
+.firebase:hover{
+    cursor: pointer;
+    filter: invert(96%) sepia(9%) saturate(7374%) hue-rotate(328deg) brightness(104%) contrast(94%);
+}
+
+.redux:hover{
+    cursor: pointer;
+    filter: invert(40%) sepia(68%) saturate(468%) hue-rotate(217deg) brightness(86%) contrast(90%);
+}
+
+.mongodb:hover{
+    cursor: pointer;
+    filter: invert(76%) sepia(25%) saturate(596%) hue-rotate(73deg) brightness(92%) contrast(85%);
+}
+
+.materialUI:hover{
+    cursor: pointer;
+    filter: invert(43%) sepia(68%) saturate(6717%) hue-rotate(184deg) brightness(98%) contrast(98%);
+}
+
+
+.proficiencies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proficiencies div{
+    width: 33%;
+}
+
+@media only screen
+
+  and (min-width: 320px)
+
+  and (max-width: 800px)
+
+  and (orientation: portrait) {
+
+    .techCont{
+        width: 90%;
+    }
+
+    .techCont h2{
+        font-size: 1.5em;
+    }
+
+    .techLogo div{
+        flex-basis: 25%;
+        flex-grow: 1;
+        margin: 0.5em;
+    }
+
+    .techLogo i{
+        font-size: 5em;
+    }
+
+    .techLogo img{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,93 @@
+.contactCont{
+    width: 40%;
+    margin: 6em auto 2em;
+}
+
+.contactCont h2{
+    font-family: 'Inter',"sans-serif";
+    font-size: 2em;
+    letter-spacing: -.029375rem;
+    font-weight: 700;
+    margin: 0.2em 0;
+}
+
+.contactCont p{
+    font-family: 'Inter',"sans-serif";
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+.upperInput{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.formCont p{
+    text-align: left;
+    margin: 0.5em;
+    color: #9c9c9c;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.nameInput{
+    flex-grow: 1;
+    margin-right: 0.5em;
+}
+
+.emailInput{
+    flex-grow: 1;
+    margin-left: 0.5em;
+}
+
+/* .socialLinks{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.socialLinks div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5em auto;
+    justify-content: center;
+    width: 60%;
+}
+
+.socialLinks i{
+    font-size: 2em;
+    margin: 0.3em;
+}
+
+@media only screen
+
+  and (min-width: 320px)
+
+  and (max-width: 800px)
+
+  and (orientation: portrait) {
+
+    .contactCont{
+        width: 80%;
+    }
+
+    .contactCont h2{
+        font-size: 1.5em;
+    }
+
+    .nameInput{
+        margin-right: 0;
+        margin-bottom: 0.5em;
+    }
+
+    .emailInput{
+        margin-left: 0;
+    }
+
+    .socialLinks div{
+        width: 100%;
+    } 
+}

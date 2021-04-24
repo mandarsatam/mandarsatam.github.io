@@ -1,0 +1,73 @@
+.statsContCont{
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 1em 0;
+    margin: 0 auto;
+}
+
+.statsCont{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.statsCont div{
+    border-right: 1px solid #eaeaea;
+    padding: 0 1em;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.statsCont h1{
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 1.14em;
+    letter-spacing: -0.05em;
+    font-family: 'Inter',"sans-serif";
+    margin: 0.3em 0;
+}
+
+.statsCont h3{
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-letter-spacing: 0.1em;
+    -moz-letter-spacing: 0.1em;
+    -ms-letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color:#666;
+    font-family: 'Inter',"sans-serif";
+}
+
+#lastStat{
+    border-right: none;
+}
+
+.githubStat{
+    margin: 5em 0;
+}
+
+.githubStat img{
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen
+
+  and (min-width: 320px)
+
+  and (max-width: 800px)
+
+  and (orientation: portrait) {
+
+    .statsCont div{
+        border-right: none;
+    }
+
+    .githubStat img{
+        width: 90%;
+    }
+}
