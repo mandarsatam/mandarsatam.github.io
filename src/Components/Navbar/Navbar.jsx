@@ -142,14 +142,28 @@ export function Navbar() {
                       <p className={styles.nav_link}>Contact</p>
                     </Link>
                   </li>
+                  {/* <li>
+                    <input type="checkbox" id="switch"/>
+                      <div className={styles.btnApp}>
+                        <div className={styles.toggleCont}>
+                          <label for="switch">
+                            <div className={styles.toggle}></div>
+                            <div className={styles.names}>
+                              <p className={styles.light}>Light</p>
+                              <p className={styles.dark}>Dark</p>
+                            </div>
+                          </label>
+                        </div>
+                      </div>
+                  </li> */}
                 </ul>
               </div>
-            </div>
+              </div>
           )}
         </Container>
         {/* </Toolbar> */}
       </AppBar>
-      {/* <Sidebar /> */}
+        {/* <Sidebar /> */}
     </>
-  );
+      );
 }
