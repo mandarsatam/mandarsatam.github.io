@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="contactCont" id="contact">
             <h2>Contact</h2>
             <p>Have a question? Get in touch.</p>
-            <div className="formCont">
+            {/* <div className="formCont">
                 <div className="upperInput">
                     <div className="nameInput">
                         <p>Name</p>
@@ -33,7 +33,7 @@ const Contact = () => {
                 <Button variant="contained" fullWidth style={{backgroundColor: "black", color:"white"}}>
                     Send
                 </Button>
-            </div>
+            </div> */}
             <div className="socialLinks">
                 <div>
                     <i class="fab fa-linkedin"></i>
