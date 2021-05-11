@@ -16,6 +16,10 @@
     cursor: pointer;
   }
 
+  .nav_link:hover{
+    color: #000;
+  }
+
   .small_screen {
     padding-bottom: 30px;
   }
@@ -50,6 +54,11 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     color: #666;
+  }
+
+  .logoText:hover{
+    color: #000;
+    cursor: pointer;
   }
 
   .toggleCont {

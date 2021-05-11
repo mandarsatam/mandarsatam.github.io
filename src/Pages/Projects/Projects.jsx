@@ -73,7 +73,7 @@ const Projects = () => {
                             <div>
                                 <a href="https://practo.netlify.app/"
                                     rel="noopener noreferrer" target="_blank">
-                                    <button id="websiteBtn"><i class="fas fa-link"></i> Website</button>
+                                    <button id="websiteBtn"><i class="fas fa-link"></i> Demo</button>
                                 </a>
                             </div>
                             <div>
@@ -113,7 +113,7 @@ const Projects = () => {
                             <div>
                                 <a href="https://goodreads-iota.vercel.app/"
                                     rel="noopener noreferrer" target="_blank">
-                                    <button id="websiteBtn"><i class="fas fa-link"></i> Website</button>
+                                    <button id="websiteBtn"><i class="fas fa-link"></i> Demo</button>
                                 </a>
                             </div>
                             <div>
@@ -145,7 +145,7 @@ const Projects = () => {
                             <div>
                                 <a href="https://anshusagar.github.io/FitnessBlender/"
                                     rel="noopener noreferrer" target="_blank">
-                                    <button id="websiteBtn"><i class="fas fa-link"></i> Website</button>
+                                    <button id="websiteBtn"><i class="fas fa-link"></i> Demo</button>
                                 </a>
                             </div>
                             <div>
@@ -179,7 +179,7 @@ const Projects = () => {
                             <div>
                                 <a href="https://mandarsatam.github.io/Mailchimp-Clone/"
                                     rel="noopener noreferrer" target="_blank">
-                                    <button id="websiteBtn"><i class="fas fa-link"></i> Website</button>
+                                    <button id="websiteBtn"><i class="fas fa-link"></i> Demo</button>
                                 </a>
                             </div>
                             <div>
@@ -209,7 +209,7 @@ const Projects = () => {
                             <div>
                                 <a href="https://budgeteasy2.netlify.app/"
                                     rel="noopener noreferrer" target="_blank">
-                                    <button id="websiteBtn"><i class="fas fa-link"></i> Website</button>
+                                    <button id="websiteBtn"><i class="fas fa-link"></i> Demo</button>
                                 </a>
                             </div>
                             <div>
@@ -244,7 +244,7 @@ const Projects = () => {
                             <div>
                                 {/* <a href="#"
                                     rel="noopener noreferrer" target="_blank"> */}
-                                <button id="websiteBtn" onClick={handleClick({ vertical: 'bottom', horizontal: 'center' })}><i class="fas fa-link"></i> Website</button>
+                                <button id="websiteBtn" onClick={handleClick({ vertical: 'bottom', horizontal: 'center' })}><i class="fas fa-link"></i> Demo</button>
                                 {/* </a> */}
                             </div>
                             <div>
