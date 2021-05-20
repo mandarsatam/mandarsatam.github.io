@@ -1,3 +1,9 @@
+/* html {
+  filter: invert(100%)
+}
+i, svg, img, picture, video {
+  filter: invert(100%)
+} */
 .ul_list {
     list-style: none;
     display: flex;
@@ -113,11 +119,11 @@
   }
   
   /* -------- Switch Styles ------------*/
-  [type="checkbox"] {
+  /* [type="checkbox"] {
     display: none;
-  }
+  } */
   /* Toggle */
-  [type="checkbox"]:checked + .btnApp .toggle{
+  /* [type="checkbox"]:checked + .btnApp .toggle{
     transform: translateX(100%);
     background-color: #34323D;
   }
@@ -126,9 +132,9 @@
   }
   [type="checkbox"]:checked + .btnApp .light{
     opacity: .5;
-  }
+  } */
   /* App */
-  [type="checkbox"]:checked + .btnApp .body{
+  /* [type="checkbox"]:checked + .btnApp .body{
     background-color:  #26242E;
     color: white;
-  }
+  } */

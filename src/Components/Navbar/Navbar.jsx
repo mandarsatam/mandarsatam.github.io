@@ -33,13 +33,12 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-export function Navbar() {
-  useEffect(() => { });
+export function Navbar({darkMode, handleModeChange}) {
   const isMobile = useMediaQuery("(max-width: 400px)");
   const isTablet = useMediaQuery("(min-width: 401px) and (max-width: 670px)");
   const isDesktop = useMediaQuery("(min-width: 671px) and (max-width: 1024px)");
   const isLargeDesktop = useMediaQuery("(min-width: 1025px)");
-
+  
   const [open, setOpen] = useState(false);
   const classes = useStyles();
 
@@ -93,6 +92,10 @@ export function Navbar() {
                         <p className={styles.nav_link}>Contact</p>
                       </Link>
                     </li>
+                    {/* <li>
+                      <input type="checkbox" onClick={(e) => handleModeChange(e.target.checked)} checked={darkMode}/>
+                      <p>Dark Mode</p>
+                    </li> */}
                   </ul>
                 </Container>
               )}
@@ -143,6 +146,12 @@ export function Navbar() {
                     </Link>
                   </li>
                   {/* <li>
+                    <div style={{margin:"1em 0"}}>
+                      <input type="checkbox" onClick={(e) => handleModeChange(e.target.checked)} checked={darkMode}/>
+                      <label htmlFor="darkMode">Dark Mode</label>
+                    </div>
+                  </li> */}
+                  {/* <li>
                     <input type="checkbox" id="switch"/>
                       <div className={styles.btnApp}>
                         <div className={styles.toggleCont}>
@@ -158,12 +167,12 @@ export function Navbar() {
                   </li> */}
                 </ul>
               </div>
-              </div>
+            </div>
           )}
         </Container>
         {/* </Toolbar> */}
       </AppBar>
-        {/* <Sidebar /> */}
+      {/* <Sidebar /> */}
     </>
-      );
+  );
 }

@@ -7,13 +7,22 @@ import {Skills} from "./Pages/Skills/Skills"
 import {Projects} from "./Pages/Projects/Projects"
 import {Github} from "./Pages/Github/Github"
 import {Contact} from "./Pages/Contact/Contact"
-
+import ThemeProvider from "styled-components"
+import {useState} from "react";
 
 
 function App() {
+
+  const [darkMode, setDarkMode] = useState(false);
+  const handleModeChange = (value) => {
+    setDarkMode(value);
+  }
+
+  
+
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar handleModeChange={handleModeChange} darkMode={darkMode}/>
       <Hero/>
       <About/>
       <Skills/>
