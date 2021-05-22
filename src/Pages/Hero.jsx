@@ -16,7 +16,7 @@ const Hero = () => {
             </div>
             <p>An enthusiastic Full Stack Web Developer with a strong set of technical as well as non-technical skills and
 a dedication towards creating useful and interactive web applications.</p>
-            <a href="https://drive.google.com/file/d/1RaGYetfNEi9JywSOqtynpzc69WmntKjW/view?usp=sharing"
+            <a href="https://drive.google.com/file/d/1fgLzjBz5kqIbT2dFCGQzzWxJ0TJtFGg8/view?usp=sharing"
             rel="noopener noreferrer" target="_blank">
                 <button className={styles.resumeBtn}>
                     Resume

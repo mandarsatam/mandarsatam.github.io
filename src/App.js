@@ -12,17 +12,11 @@ import {useState} from "react";
 
 
 function App() {
-
-  const [darkMode, setDarkMode] = useState(false);
-  const handleModeChange = (value) => {
-    setDarkMode(value);
-  }
-
   
 
   return (
     <div className="App">
-      <Navbar handleModeChange={handleModeChange} darkMode={darkMode}/>
+      <Navbar/>
       <Hero/>
       <About/>
       <Skills/>
